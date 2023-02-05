@@ -1,0 +1,17 @@
+.button {
+    display: inline-block;
+    background-color: #76dd76;
+    padding: 18px 20px;
+    box-shadow: 5px 5px 0px black;
+    margin: 0px;
+    transition: 100ms linear; /*dar uma olhada nisso*/
+    
+}
+
+.button:hover {
+    transform: scaleX(1.08);
+    opacity: 0.7;             /*dar uma olhada nisso*/
+    background-color: #00fa00;
+    color: white;
+    cursor: pointer;
+}
