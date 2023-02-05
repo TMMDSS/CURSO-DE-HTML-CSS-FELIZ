@@ -1,7 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #7c5e99;
+    background-color: green;
     border-bottom: 10px solid black;
     padding: 10px 20px;
     
@@ -22,18 +22,27 @@ a {
     margin-right: 30px;
 }
 
-a::before {
+a:before {
     content: "";
-    background-color: #f25a70;
+    background-color: #76dd76;
     width: 10px;
     height: 10px;
     margin-right: 10px;
 }
 
+a:hover {
+    color: #00fa00;
+}
+
 #button {
     display: inline-block;
-    background-color: #f25a70;
+    background-color: #76dd76;
     padding: 18px 20px;
     box-shadow: 5px 5px 0px black;
     margin: 0px;
+}
+#button:hover {
+    background-color: #00fa00;
+    color: white;
+    cursor: pointer;
 }
