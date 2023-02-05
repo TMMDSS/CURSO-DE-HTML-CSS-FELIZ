@@ -44,6 +44,7 @@ a:hover {
     transition: 100ms linear; /*dar uma olhada nisso*/
     
 }
+
 #button:hover {
     transform: scaleX(1.08);
     opacity: 0.5;             /*dar uma olhada nisso*/
@@ -51,3 +52,5 @@ a:hover {
     color: white;
     cursor: pointer;
 }
+
+
