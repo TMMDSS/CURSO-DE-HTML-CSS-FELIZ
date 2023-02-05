@@ -1,6 +1,7 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: green;
     border-bottom: 10px solid black;
     padding: 10px 20px;
@@ -40,8 +41,12 @@ a:hover {
     padding: 18px 20px;
     box-shadow: 5px 5px 0px black;
     margin: 0px;
+    transition: 100ms linear; /*dar uma olhada nisso*/
+    
 }
 #button:hover {
+    transform: scaleX(1.08);
+    opacity: 0.5;             /*dar uma olhada nisso*/
     background-color: #00fa00;
     color: white;
     cursor: pointer;
