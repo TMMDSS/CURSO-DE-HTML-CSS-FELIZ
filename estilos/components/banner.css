@@ -1,0 +1,7 @@
+.banner {
+    background-image: url(../../imagens/rising-of-shield-hero-habilidades.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 10px solid black;
+}
