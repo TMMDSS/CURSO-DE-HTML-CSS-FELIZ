@@ -20,7 +20,7 @@
 .main-carousel::before {
     content: "";
     position: absolute;
-    left: 0px;
+    left: -6px;
     top: 48.2px;
     display: block;
     border: 3px dashed black;
