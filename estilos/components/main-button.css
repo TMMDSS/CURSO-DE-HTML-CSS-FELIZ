@@ -17,3 +17,8 @@
     color: white;
     cursor: pointer;
 }
+
+.main-button.-full {
+    width: 100%;
+    transform: none;
+}
