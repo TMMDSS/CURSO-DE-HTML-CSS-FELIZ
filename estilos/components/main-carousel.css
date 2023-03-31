@@ -41,6 +41,7 @@
 
 .main-carousel .button-arrow.-right {
     right: 15px;
+    transform: translateY(50%);
 }
 
 .main-carousel .items {
